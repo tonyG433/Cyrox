@@ -1,0 +1,25 @@
+{
+  "name": "cyrox",
+  "version": "1.0.0",
+  "description": "An open source bot for Revolt ",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonyG433/Cyrox.git"
+  },
+  "keywords": [
+    "Revolt",
+    "bot",
+    "typescript",
+    "revolt.js"
+  ],
+  "author": "tonyG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tonyG433/Cyrox/issues"
+  },
+  "homepage": "https://github.com/tonyG433/Cyrox#readme"
+}
