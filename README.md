@@ -8,7 +8,7 @@
 [![license](https://img.shields.io/badge/license-MIT-orange?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![invite](https://img.shields.io/badge/Invite_now!-purple?style=for-the-badge)](https://app.revolt.chat/bot/01FM5Q2BVG11V4NSRXPWR29TVP)
 
-###Welcome to Cyrox! Cyrox is an upcoming **Revolt** bot that is supposed to fit all of your needs. It uses [Revolt.js](https://www.npmjs.com/package/revolt.js) and Typescript. To invite the bot, simply click the link bellow. If you have any questions or you are having trouble with Cyrox you can join our [support server](https://app.revolt.chat/invite/aeH8vBQ2). (Note: The bot still isn't released yet, therefore uptime may not be good.)
+<h3>Welcome to Cyrox! Cyrox is an upcoming <b>Revolt</b> bot that is supposed to fit all of your needs. It uses <a href="https://www.npmjs.com/package/revolt.js">Revolt.js</a> and Typescript. To invite the bot, simply click the link bellow. If you have any questions or you are having trouble with Cyrox you can join our <a href="https://app.revolt.chat/invite/aeH8vBQ2">support server</a>. <i>(Note: The bot still isn't released yet, therefore uptime may not be good.)</i> </h3>
 
 <h2><a href="https://app.revolt.chat/bot/01FM5Q2BVG11V4NSRXPWR29TVP">✉ Invite the bot by clicking here!</a></h2>
 
@@ -26,7 +26,6 @@
 ```sh
 ts-node src/index.ts
 ```
-
 
 ## 👥 Author and contributors
 
