@@ -3,12 +3,10 @@ import { Client, ClientOptions } from 'revolt.js'
 import Collection from '@discordjs/collection'
 import { readdirSync } from 'fs'
 
-// @ts-ignore
-import ICommand from '../interfaces/ICommand'
-// @ts-ignore
-import IConfig from '../interfaces/IConfig'
+import ICommand from './interfaces/ICommand'
+import IConfig from './interfaces/IConfig'
 
-// @ts-ignore
+
 import cmdHandler from './handlers/command'
 
 class CyroxClient extends Client {
