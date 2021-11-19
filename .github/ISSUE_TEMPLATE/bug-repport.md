@@ -1,11 +1,3 @@
----
-name: Bug Repport
-about: Repport a bug related to the bot
-title: BUG
-labels: ''
-assignees: ''
-
----
 
 # Describe the issue with a few words
 
@@ -13,6 +5,7 @@ assignees: ''
 
 ### Long/short description of your issue
 *** 
-##Optional:
+## Optional:
 - Screenshot or a gif of your issue
-- Submit a pull request
+- Why could it be happening?
+- Submit a pull request and send a link to it
