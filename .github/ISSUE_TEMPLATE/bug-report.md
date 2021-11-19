@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Describe this issue template's purpose here.
+about: Report a bug that you are experiencing with the bot
 title: ''
 labels: ''
 assignees: ''
