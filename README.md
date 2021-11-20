@@ -1,7 +1,7 @@
 <h1 align="center">Cyrox 🤖</h1>
 
 
-![Version](https://img.shields.io/badge/version-0.3.0-green.svg?cacheSeconds=2592000&style=for-the-badge)
+![Version](https://img.shields.io/badge/version-0.4.0-green.svg?cacheSeconds=2592000&style=for-the-badge)
 [![SupportServer](https://img.shields.io/badge/-Support%20Server-red?style=for-the-badge)](https://app.revolt.chat/invite/aeH8vBQ2)
 ![botlib](https://img.shields.io/badge/powered_by-revolt.js-blue?style=for-the-badge)
 ![Language](https://img.shields.io/badge/Typescript-yellow?style=for-the-badge&logo=typescript)

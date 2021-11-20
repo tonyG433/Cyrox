@@ -3,9 +3,9 @@ import ICommand from '../../structure/interfaces/ICommand'
 const command: ICommand = {
     name: 'ping',
     description: 'Sends the bot\'s ping.',
-    aliases: 'test',
+    aliases: 'latency',
     async run (client, message, args) {
-        message.channel!.sendMessage(`>Pong! :pingpog: \n >> API Latency: ${client.websocket.ping} ms`)
+        message.channel!.sendMessage(`#### Pong!\n API Latency: ${client.websocket.ping} ms`)
     }
 }
 

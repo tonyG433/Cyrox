@@ -1,6 +1,11 @@
 # Changelog 
 ### Here you will see all of the changes made to the repository. When submitting a pull request make sure to write the version number and changes in here and follow the [pull reqest template]()
 ***
+## v0.4.0 FTC (20.11.2021)
+- Eval, Say and 8ball commands
+- Event Loader
+- Started Dev check 
+
 ## v0.3.1 (19.11.2021)
 - Added a changelog file
 - v1.0.0 -> v0.3.1

@@ -7,7 +7,7 @@ const handler = (client: CyroxClient) => {
         if (folder === 'context') continue
 
         const commandFiles = readdirSync(`./src/commands/${folder}`).filter(file => file.endsWith('js') || file.endsWith('ts'))
-        console.log(`\nSearching ${folder} commands...\n`)
+        console.log(`\nSearching for ${folder} commands...\n`)
 
         for (const file of commandFiles) {
             const req = require(`../../commands/${folder}/${file}`)
