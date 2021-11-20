@@ -7,7 +7,7 @@
 - Change img shield version banner numbers to the new version 
 - Sum the things up and edit the [CHANGELOG.md](https://github.com/tonyG433/Cyrox/blob/main/CHANGELOG.md) file
 - Change the package.json and package-lock.json version numbers
-- 
+
 ## How do versions go?
 - Something small like a typo - add 1 to the back: 0.0.0 --> 0.0.1
 - New command or handler - add 1 to the middle: 0.0.0 --> 0.1.0

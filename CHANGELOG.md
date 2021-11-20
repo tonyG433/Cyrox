@@ -1,6 +1,10 @@
 # Changelog 
 ### Here you will see all of the changes made to the repository. When submitting a pull request make sure to write the version number and changes in here and follow the [pull reqest template]()
 ***
+## v0.4.5 (20.11.2021)
+- Long Botifo command
+- fixed a floating - in the changelog file
+
 ## v0.4.0 FTC (20.11.2021)
 - Eval, Say and 8ball commands
 - Event Loader
