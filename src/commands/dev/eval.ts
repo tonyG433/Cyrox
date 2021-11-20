@@ -21,12 +21,7 @@ const command: ICommand = {
             }
         }
 
-        try {
-            eval(code)
-        }
-        catch (error) {
-            return message.channel!.sendMessage('error');
-        }
+      // evaluate shit
     }
 
 
