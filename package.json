@@ -1,6 +1,6 @@
 {
   "name": "cyrox",
-  "version": "0.4.5",
+  "version": "0.5.0",
   "description": "An open source bot for Revolt ",
   "main": "src/index.ts",
   "scripts": {
@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/tonyG433/Cyrox#readme",
   "dependencies": {
+    "chalk": "^4.1.2",
+    "colors": "^1.4.0",
     "sourcebin": "^4.2.5",
     "sourcebin_js": "^0.0.3-ignore"
   }
