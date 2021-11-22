@@ -1,11 +1,11 @@
 import IEvent from "../structure/interfaces/IEvent";
 import chalk from "chalk"
+import logger from "../utils/logger";
 
 let event: IEvent = {
     name: 'ready',
     run: (client) => {
-        console.log(chalk.green(`\nLogged in as`) + ' ' + chalk.magenta(`${client.user?.username}`) + ' ' + chalk.green('and ready to go!'))
-
+        logger('Ready', `Logged in as` + ' ' + chalk.bold.white(`${client.user?.username}`) + ' ' + `and ready to go!`)
     }
 }
 

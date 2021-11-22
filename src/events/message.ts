@@ -3,10 +3,12 @@ import { Message } from 'revolt.js/dist/maps/Messages'
 import IConfig from "../structure/interfaces/IConfig";
 import _config from '../../config.json'
 const config: IConfig = _config
+import logger from "../utils/logger";
 
 let event: IEvent = {
     name: 'message',
     run: (client, message: Message) => {
+
         if (message.author?.bot || typeof message.content !== 'string') return
 
         let args: string[] = message.content.slice(config.prefix.length).split(/ +/g)
@@ -23,9 +25,12 @@ let event: IEvent = {
 
         try {
             command.run(client, message, args)
+            // logger('Command Ran', `${message.author?.username} has ran the command ${command.name} (channel name: ${message.channel?.name}, Server name: )`)
         } catch (err) {
             console.error(err)
         }
+        //
+        // logger('Message', `${message.author?.username} says:` + ' ' + chalk.yellow(`${message.content}`))
     }
 }
 

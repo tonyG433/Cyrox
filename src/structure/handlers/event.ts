@@ -2,6 +2,7 @@ import CyroxClient from "../Client";
 import fs from 'fs'
 import IEvent from "../interfaces/IEvent";
 import chalk from "chalk"
+import logger from "../../utils/logger";
 
 const handler = (client: CyroxClient) => {
     const eventFiles = fs.readdirSync('./src/events').filter(file => file.endsWith('.js') || file.endsWith('ts'))
@@ -12,8 +13,7 @@ const handler = (client: CyroxClient) => {
 
         const event: IEvent = req.default
 
-
-        console.log((`\t[` + chalk.yellow('EVENT') + ']' + ' ' + chalk.magenta(`${event.name}`) + ' ' + chalk.blueBright('event has been loaded!\t')))
+        logger('Event', chalk.magenta`${event.name}` + ' ' + 'event' + ' ' + 'has been loaded')
 
         if (event.once) {
             client.once(event.name, (...args) => event.run(client, ...args))

@@ -2,13 +2,15 @@ import { readdirSync } from 'fs'
 import CyroxClient from '../Client'
 import ICommand from '../interfaces/ICommand'
 import chalk from "chalk"
+import logger from "../../utils/logger";
 
 const handler = (client: CyroxClient) => {
     for (const folder of client.categories) {
         if (folder === 'context') continue
 
         const commandFiles = readdirSync(`./src/commands/${folder}`).filter(file => file.endsWith('js') || file.endsWith('ts'))
-        console.log(`\n[` + chalk.magenta('LOAD') + `]`  + ' ' + chalk.cyan('Searching for') + ' ' + chalk.underline.bold(`${folder}`) + ' ' + chalk.cyan('commands...\n'))
+
+        logger('Load', `Searching for` + ' ' + chalk.underline.bold.white(`${folder}`) + ' ' + `commands...\n`)
 
 
         for (const file of commandFiles) {
@@ -18,7 +20,8 @@ const handler = (client: CyroxClient) => {
 
             client.commands.set(command.name, command)
 
-            console.log((`\t[` + chalk.yellow('COMMAND') + ']' + ' ' + chalk.magenta(`${file}`) + ' ' + chalk.blueBright('has been loaded!')))
+
+            logger('Command', chalk.magenta(`${file}`) + ' ' + 'has been loaded!')
         }
     }
 }

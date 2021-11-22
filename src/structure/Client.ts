@@ -3,6 +3,7 @@ import { Client, ClientOptions } from 'revolt.js'
 import Collection from '@discordjs/collection'
 import { readdirSync } from 'fs'
 import chalk from "chalk"
+import logger from "../utils/logger";
 
 import ICommand from './interfaces/ICommand'
 import IConfig from './interfaces/IConfig'
@@ -25,11 +26,12 @@ class CyroxClient extends Client {
     }
 
     public start() {
-        console.log(chalk.greenBright('Starting the bot. Please hold.'))
+        logger('Starting','Starting the bot. Please hold...')
         this.loadCommands(this)
         this.loadEvents(this)
         this.loginBot(this._config.token)
     }
+
 }
 
 export default CyroxClient

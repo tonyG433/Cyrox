@@ -1,6 +1,10 @@
 # Changelog 
 ### Here you will see all of the changes made to the repository. When submitting a pull request make sure to write the version number and changes in here and follow the [pull reqest template]()
 ***
+## v0.6.0 (22.11.2021)
+- added a logger util that handles logs
+- Made the logs wayyy shorter 
+
 ## v0.5.0 (21.11.2021)
 - colorful logs using chalk
 
