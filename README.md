@@ -41,7 +41,7 @@ If you want to be a developer then dm me on discord (tonyG#0001) or you could ma
 
 ## 📝 License
 
-Copyright © 2021 [tonyG433](https://github.com/tonyG433)
+Copyright © 2022 [tonyG433](https://github.com/tonyG433)
 
 
 This project is [MIT](https://opensource.org/licenses/MIT) licensed.
